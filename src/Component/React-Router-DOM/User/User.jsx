@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 function User() {
-    // Create a Custom-Hooks
+    // Create a Custom-Hooks Read-only
     const {userid} = useParams();
   return (
     <div className='bg-gray-600 text-white text-3xl p-4 text-center'>
